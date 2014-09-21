@@ -1,0 +1,5 @@
+{
+	"proxy": "localhost:8888",
+	"transforms-foo": {},
+	"entrypoints": ["index.js"]
+}

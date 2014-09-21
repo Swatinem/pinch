@@ -1,0 +1,10 @@
+build
+components
+coverage
+node_modules
+normalize-manifest.json
+npm-debug.log
+repositories
+*.tgz
+*.patch
+*.diff

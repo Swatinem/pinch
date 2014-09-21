@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>pinch</title>
+    <meta name="viewport" content="width=device-width, target-densitydpi=device-dpi, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <style>
+    #foo {
+      margin: 20px;
+      border: 2px solid red;
+      width: 200px;
+      height: 100px;
+    }
+    .pinch {
+      transition: box-shadow 250ms;
+    }
+    .pinch-active {
+      transition: box-shadow 250ms;
+      box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    }
+    </style>
+  </head>
+  <body>
+    <div id="foo" class="pinch"></div>
+    <script src="../build/demo.js"></script>
+  </body>
+</html>
+

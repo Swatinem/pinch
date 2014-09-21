@@ -1,0 +1,20 @@
+{
+  "name": "pinch",
+  "description": "pinch gestures for arbitrary html elements",
+  "version": "0.0.1",
+  "author": "Arpad Borsos <arpad.borsos@googlemail.com> (http://swatinem.de)",
+  "license": "GPLv3",
+  "repository": "Swatinem/pinch",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "nlz": "0",
+    "mocha": "1",
+    "chai": "1"
+  },
+  "scripts": {
+    "build-demo": "nlz build demo/demo.js",
+    "build-test": "nlz build test/test.js",
+    "test": "npm run-script build-test && mocha --harmony build/test.js"
+  }
+}
